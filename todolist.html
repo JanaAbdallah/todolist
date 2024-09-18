@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todolist.css" />
+  </head>
+  <body>
+    <div class="welcome1">Welcome to Your Todo List</div>
+    <div class="welcome">
+      Welcome! Our Todo List is designed to streamline your task management.
+      With just a few clicks, you can easily add new tasks and remove completed
+      ones, helping you stay organized and focused. Use our simple interface to
+      manage your tasks efficiently and keep track of your progress. Start
+      adding your tasks today and enjoy a more organized and productive day!
+    </div>
+    <div class="control">
+      <p>Todo List</p>
+      <input placeholder="Todo name" class="js-name-input" />
+      <!--date selector-->
+      <input type="date" class="js-date-input" />
+      <button onclick=" addTodo()" class="Addbutton">Add</button>
+
+      <div class="js-todo-list"></div>
+    </div>
+
+    <script src="todolist.js"></script>
+  </body>
+</html>

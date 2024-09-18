@@ -1,0 +1,66 @@
+.Addbutton{
+ background-color: green;
+ color:white;
+ border-radius: 20px;
+ border: none;
+ padding-top:5px;
+ padding-bottom: 5px;
+ padding-left: 40px;
+ padding-right: 40px;
+ font-size: medium;
+ margin: 5px;
+}
+
+body{
+    background-color:rgb(6, 65, 121);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.Deletebutton{
+    background-color: rgb(215, 7, 7);
+    color:white;
+    border-radius: 20px;
+    border:none;
+    font-size: medium;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.js-date-input{
+    border-radius: 20px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:none;
+}
+.js-name-input{
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 50px;
+    border-radius: 10px;
+    border:none;
+}
+.js-todo-list{
+    display:grid;
+    grid-template-columns: 200px 123px  110px;
+    color: white;
+    align-items: center; /* Align items vertically centered */
+    gap: 8.5px; /* Space between elements */
+    margin: 10px; 
+}
+.welcome1{
+    font-weight: bolder;
+    font-size: larger ;
+}
+.welcome{
+    margin-top: 30px;
+   
+}
+
+.control{
+    margin-top: 80px;
+}
